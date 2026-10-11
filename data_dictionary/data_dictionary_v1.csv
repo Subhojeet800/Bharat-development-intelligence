@@ -1,0 +1,20 @@
+table,column,data_type,description,key_or_unit
+dim_country,country_id,string,Stable country identifier,PK
+dim_country,country_name,string,Country name,
+dim_state,state_id,string,Stable state or UT identifier,PK
+dim_state,state_name,string,State or UT name,
+dim_district,district_id,string,Stable district identifier,PK
+dim_district,district_name,string,District name,
+dim_date,date_key,int,YYYYMMDD date key,PK
+fact_fiscal,entity_id,string,Geographic entity identifier,FK
+fact_fiscal,financial_year,string,Financial year,YYYY-YY
+fact_fiscal,total_revenue,decimal,Total revenue,currency
+fact_fiscal,total_expenditure,decimal,Total expenditure,currency
+fact_fiscal,capital_expenditure,decimal,Capital expenditure,currency
+fact_fiscal,debt,decimal,Outstanding debt,currency
+fact_project_finance,project_id,string,Project identifier,FK
+fact_project_finance,allocated_amount,decimal,Allocated amount,currency
+fact_project_finance,released_amount,decimal,Released amount,currency
+fact_project_finance,spent_amount,decimal,Spent amount,currency
+fact_project_progress,project_id,string,Project identifier,FK
+fact_project_progress,physical_progress_pct,decimal,Physical progress,percent

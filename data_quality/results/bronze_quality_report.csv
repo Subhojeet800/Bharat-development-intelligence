@@ -1,0 +1,9 @@
+report_time,check_name,status,details
+2026-10-11T05:22:14.205719+00:00,file_exists,PASS,File found: india_gdp.json
+2026-10-11T05:22:14.205719+00:00,valid_json,PASS,JSON parsed successfully.
+2026-10-11T05:22:14.205719+00:00,response_structure,PASS,"Expected [metadata, observations] structure."
+2026-10-11T05:22:14.205719+00:00,observations_present,PASS,Observation count: 66
+2026-10-11T05:22:14.205719+00:00,country_and_indicator,PASS,66/66 observations match India GDP (NY.GDP.MKTP.CD).
+2026-10-11T05:22:14.205719+00:00,valid_years,PASS,Invalid years: 0
+2026-10-11T05:22:14.205719+00:00,duplicate_years,PASS,Duplicate year count: 0
+2026-10-11T05:22:14.205719+00:00,numeric_gdp_values,PASS,Invalid GDP values: 0; invalid records: 0; null GDP values: 0.

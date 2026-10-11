@@ -1,0 +1,8 @@
+source_id,source_name,domain,geography,frequency,ingestion_method,target_dataset,active
+WB001,World Bank Indicators,development,country,annual,api,country_indicators,true
+LGD001,Local Government Directory,geography,state_district,periodic,file_or_api,geography,true
+OGD001,Open Government Data India,development/state_district,variable,api_or_file,indicator_dataset,true
+RBI001,RBI State Finances,fiscal,state,annual_or_periodic,excel_or_pdf,state_fiscal,true
+BUD001,Union Budget / Receipt Budget,fiscal,india,annual,document_or_file,union_fiscal,true
+CGWB001,Central Ground Water Board,resources,state_district,periodic,file_or_report,groundwater,true
+ODOP001,One District One Product,opportunity,district,periodic,file_or_portal,district_opportunity,true
